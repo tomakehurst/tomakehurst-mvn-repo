@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.tomakehurst</groupId>
+  <artifactId>jsoneditor</artifactId>
+  <version>1.0</version>
+  <versioning>
+    <versions>
+      <version>1.0</version>
+    </versions>
+    <lastUpdated>20111204223212</lastUpdated>
+  </versioning>
+</metadata>

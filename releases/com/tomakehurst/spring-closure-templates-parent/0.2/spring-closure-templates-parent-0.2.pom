@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.tomakehurst</groupId>
+	<artifactId>spring-closure-templates-parent</artifactId>
+	<packaging>pom</packaging>
+	<version>0.2</version>
+	<name>spring-closure-templates-parent</name>
+	
+	<repositories>
+		<repository>
+			<id>tomakehurst-mvn-repo-thirdparty</id>
+			<name>Tom Akehurst's 3rd party Maven Repo</name>
+			<url>https://github.com/tomakehurst/tomakehurst-mvn-repo/raw/master/thirdparty</url>
+			<layout>default</layout>
+		</repository>
+		<repository>
+			<id>google-releases</id>
+			<name>Google Releases</name>
+			<url>https://oss.sonatype.org/content/groups/google/</url>
+			<layout>default</layout>
+		</repository>
+	</repositories>
+	
+	<distributionManagement>
+		<repository>
+			<id>local release repo</id>
+			<layout>default</layout>
+			<url>file:///Users/tomakehurst/dev/tomakehurst-mvn-repo/releases</url>
+		</repository>
+	</distributionManagement>
+
+	<scm>
+		<connection>scm:git:https://tomakehurst@github.com/tomakehurst/spring-closure-templates.git</connection>
+		<developerConnection>scm:git:https://tomakehurst@github.com/tomakehurst/spring-closure-templates.git</developerConnection>
+	</scm>
+
+	<modules>
+		<module>spring-closure-templates</module>
+		<module>spring-closure-templates-example</module>
+	</modules>
+</project>
